@@ -1,0 +1,61 @@
+// =============================================================================
+// SCSS/SITE/STACKS/ICON/_MEJS.SCSS
+// -----------------------------------------------------------------------------
+// Styles for MEJS.
+// =============================================================================
+
+// =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. MEJS Controls
+// =============================================================================
+
+// MEJS Controls
+// =============================================================================
+
+//
+// Controls container.
+//
+
+.mejs-controls {
+  border-color: $baseBorderRgba;
+  background-color: $baseModBackground;
+}
+
+
+//
+// Play/pause buttons.
+//
+
+.mejs-button button {
+  color: darken($white, 15%);
+  @include transition(#{color 0.3s ease});
+
+  &:hover {
+    color: $accentColor;
+  }
+}
+
+
+//
+// Time rail.
+//
+
+.mejs-time-rail {
+  padding: 10px 10px 0 0;
+}
+
+.mejs-time-total {
+  height: 10px;
+  background-color: $black;
+}
+
+.mejs-time-loaded {
+  height: 10px;
+  background-color: darken($white, 15%);
+}
+
+.mejs-time-current {
+  height: 10px;
+  background-color: $accentColor;
+}

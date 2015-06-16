@@ -1,0 +1,241 @@
+// =============================================================================
+// SCSS/SITE/_MEJS.SCSS
+// -----------------------------------------------------------------------------
+// Global styling for MEJS.
+// =============================================================================
+
+// =============================================================================
+// TABLE OF CONTENTS
+// -----------------------------------------------------------------------------
+//   01. MEJS Media Container
+//   02. MEJS Controls
+//   03. MEJS Layers
+//   04. MEJS Miscellaneous
+// =============================================================================
+
+// MEJS Media Container
+// =============================================================================
+
+.mejs-container {
+  width: 100% !important;
+
+  &:focus,
+  &:active {
+    outline: 0;
+  }
+}
+
+
+
+// MEJS Controls
+// =============================================================================
+
+//
+// Control containers.
+//
+
+.mejs-controls {
+  height: $mejsHeight !important;
+  border: 1px solid transparent;
+
+  > div {
+    float: left;
+    width: $mejsHeightInner;
+    height: $mejsHeightInner;
+  }
+}
+
+.mejs-video {
+  .mejs-controls {
+    width: auto;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+  }
+}
+
+
+//
+// Play/pause buttons.
+//
+
+.mejs-button button {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: $mejsHeightInner;
+  height: $mejsHeightInner;
+  @include font-size(1.4);
+  line-height: $mejsHeightInner;
+  text-align: center;
+  background: none;
+
+  &:focus,
+  &:active {
+    outline: 0;
+  }
+
+  &:before {
+    content: "\f04b";
+    display: block;
+    margin: 0 auto;
+    @include font-awesome();
+  }
+
+  &[aria-label="Play"]:before {
+    content: "\f04b";
+  }
+
+  &[aria-label="Pause"]:before {
+    content: "\f04c";
+  }
+}
+
+
+//
+// Time rail.
+//
+
+.mejs-time-rail {
+  width: calc(100% - #{$mejsHeightInner}) !important;
+}
+
+.mejs-time-total {
+  display: block;
+  margin: 0;
+  position: relative;
+  width: 100% !important;
+
+  &:focus,
+  &:active {
+    outline: 0;
+  }
+}
+
+.mejs-time-loaded,
+.mejs-time-current {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mejs-time-loaded {
+  width: 100% !important;
+}
+
+
+
+// MEJS Layers
+// =============================================================================
+
+.mejs-audio {
+  .mejs-layers {
+    display: none;
+  }
+}
+
+.mejs-video {
+  .mejs-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    // position: absolute;
+    // top: -2px;
+    // left: -2px;
+    // right: -2px;
+    // bottom: -2px;
+    // width: auto !important;
+    // height: auto !important;
+  }
+
+  .mejs-poster {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  .mejs-overlay-play {
+    cursor: pointer;
+
+    // .mejs-overlay-button {
+    //   position: absolute;
+    //   top: 50%;
+    //   left: 50%;
+    //   width: 60px;
+    //   height: 60px;
+    //   margin: -30px 0 0 -30px !important;
+    //   @include font-size(5.6);
+    //   line-height: 60px;
+    //   text-align: center;
+    //   @include transition(#{color 0.3s ease, text-shadow 0.3s ease});
+
+    //   &:before {
+    //     content: "\f04b";
+    //     display: block;
+    //     @include font-awesome();
+    //   }
+    // }
+
+    // &:hover {
+    //   color: $white;
+    //   text-shadow: 0 0 15px rgba(0, 0, 0, 0.425);
+    // }
+  }
+
+  .mejs-overlay-loading,
+  .mejs-overlay-error,
+  .mejs-overlay-play .mejs-overlay-button {
+    display: none;
+  }
+}
+
+
+
+// MEJS Miscellaneous
+// =============================================================================
+
+//
+// Hidden elements.
+//
+
+.mejs-offscreen,
+.mejs-time-buffering,
+.mejs-time-handle,
+.mejs-time-float,
+.mejs-clear {
+  display: none !important;
+}
+
+
+//
+// Hidden controls.
+//
+
+.hide-controls {
+  .mejs-video {
+    .mejs-controls {
+      display: none !important;
+    }
+  }
+}
+
+
+//
+// Hidden controls and autoplay.
+//
+
+.hide-controls.autoplay {
+  .mejs-video {
+    .mejs-layers {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
+}
