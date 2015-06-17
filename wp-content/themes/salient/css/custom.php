@@ -303,7 +303,7 @@ function nectar_custom_css() {
 	if(!empty($options['responsive']) && $options['responsive'] == 1 && !empty($options['ext_responsive']) && $options['ext_responsive'] == '1') {
 		echo '@media only screen and (min-width: 1000px) {
 			
-			    .container, .woocommerce-tabs .full-width-content .tab-container, .wpb_wrapper {
+			    .container, .woocommerce-tabs .full-width-content .tab-container, .home-testimonials .wpb_wrapper {
 			      max-width: 1425px; 
 				  width: 100%;
 				  margin: 0 auto;

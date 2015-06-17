@@ -4,7 +4,7 @@
 
 <div class="container-wrap">
 
-	<div class="main-content">
+	<div class="main-content container">
 
 		<div class="row">
 

@@ -4,33 +4,6 @@ get_header(); ?>
 
 <?php $options = get_option('salient'); ?>
 
-<div class="display-logo">
-	<div class="container">
-		<a id="logo" href="<?php echo home_url(); ?>" <?php echo $logo_class; ?>>
-
-			<?php if(!empty($options['use-logo'])) {
-
-					$default_logo_class = (!empty($options['retina-logo'])) ? 'default-logo' : null;
-					$dark_default_class = (empty($options['header-starting-logo-dark'])) ? ' dark-version': null;
-
-					 echo '<img class="'.$default_logo_class. $dark_default_class.'" alt="'. get_bloginfo('name') .'" src="' . nectar_options_img($options['logo']) . '" />';
-
-					 if(!empty($options['retina-logo'])) echo '<img class="retina-logo '.$dark_default_class.'" alt="'. get_bloginfo('name') .'" src="' . nectar_options_img($options['retina-logo']) . '" />';
-
-					 //starting logo
-					 if($activate_transparency == 'true'){
-					 	 if(!empty($options['header-starting-logo'])) echo '<img class="starting-logo '.$default_logo_class.'"  alt="'. get_bloginfo('name') .'" src="' . nectar_options_img($options['header-starting-logo']) . '" />';
-						 if(!empty($options['header-starting-retina-logo'])) echo '<img class="retina-logo starting-logo" alt="'. get_bloginfo('name') .'" src="' . nectar_options_img($options['header-starting-retina-logo']) . '" />';
-
-						 if(!empty($options['header-starting-logo-dark'])) echo '<img class="starting-logo dark-version '.$default_logo_class.'"  alt="'. get_bloginfo('name') .'" src="' . nectar_options_img($options['header-starting-logo-dark']) . '" />';
-						 if(!empty($options['header-starting-retina-logo-dark'])) echo '<img class="retina-logo starting-logo dark-version " alt="'. get_bloginfo('name') .'" src="' . nectar_options_img($options['header-starting-retina-logo-dark']) . '" />';
-
-					 }
-
-				 } else { echo get_bloginfo('name'); } ?>
-		</a>
-	</div>
-</div>
 <div id="featured" data-caption-animation="<?php echo (!empty($options['slider-caption-animation']) && $options['slider-caption-animation'] == 1) ? '1' : '0'; ?>" data-bg-color="<?php if(!empty($options['slider-bg-color'])) echo $options['slider-bg-color']; ?>" data-slider-height="<?php if(!empty($options['slider-height'])) echo $options['slider-height']; ?>" data-animation-speed="<?php if(!empty($options['slider-animation-speed'])) echo $options['slider-animation-speed']; ?>" data-advance-speed="<?php if(!empty($options['slider-advance-speed'])) echo $options['slider-advance-speed']; ?>" data-autoplay="<?php echo $options['slider-autoplay'];?>">
 
 	<?php
@@ -124,7 +97,7 @@ get_header(); ?>
 
 <div class="home-wrap">
 
-	<div class="container-fluid main-content">
+	<div class="container main-content">
 
 		<div class="row">
 

@@ -493,10 +493,13 @@
 		margin-left: 0px;
 	}
 	
-	.container {
+	.container, .home-recent-posts, .home-testimonials .wpb_wrapper {
     	max-width: 600px; 
   	} 
-  	
+  	.home-recent-posts, .home-testimonials .wpb_wrapper {
+  		margin-left: auto;
+  		margin-right: auto;
+  	}
   	
   	#header-secondary-outer nav > ul > li:last-child {
 	    border-right: 1px solid #DDDDDD!important;
