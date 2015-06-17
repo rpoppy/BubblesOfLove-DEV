@@ -306,7 +306,7 @@ function nectar_custom_css() {
 			    .container, .woocommerce-tabs .full-width-content .tab-container, .home-testimonials .wpb_wrapper {
 			      max-width: 1425px; 
 				  width: 100%;
-				  margin: 0 auto;
+				  margin: 0 auto !important;
 				  padding: 0px 90px; 
 			    } 
 				
