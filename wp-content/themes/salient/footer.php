@@ -66,18 +66,18 @@ $cta_btn_color = (!empty($options['cta-btn-color'])) ? $options['cta-btn-color']
 
 				</div><!--/span_3-->
 
-				<?php if($footerColumns == '3' || $footerColumns == '4') { ?>
-					<div class="col <?php echo $footerColumnClass;?>">
+				<?php //if($footerColumns == '3' || $footerColumns == '4') { ?>
+					<!-- <div class="col <?php //echo $footerColumnClass;?>"> -->
 						 <!-- Footer widget area 3 -->
-			              <?php if ( function_exists('dynamic_sidebar') && dynamic_sidebar('Footer Area 3') ) : else : ?>
-			              	  <div class="widget">
+			              <?php //if ( function_exists('dynamic_sidebar') && dynamic_sidebar('Footer Area 3') ) : else : ?>
+			              	  <!-- <div class="widget">
 							  	<h4 class="widgettitle">Widget Area 3</h4>
-							  	<p class="no-widget-added"><a href="<?php echo admin_url('widgets.php'); ?>">Click here to assign a widget to this area.</a></p>
-							  </div>
-					     <?php endif; ?>
+							  	<p class="no-widget-added"><a href="<?php //echo admin_url('widgets.php'); ?>">Click here to assign a widget to this area.</a></p>
+							  </div> -->
+					     <?php //endif; ?>
 
-					</div><!--/span_3-->
-				<?php } ?>
+					<!-- </div> --><!--/span_3-->
+				<?php //} ?>
 
 				<?php if($footerColumns == '4') { ?>
 					<div class="col <?php echo $footerColumnClass;?>">

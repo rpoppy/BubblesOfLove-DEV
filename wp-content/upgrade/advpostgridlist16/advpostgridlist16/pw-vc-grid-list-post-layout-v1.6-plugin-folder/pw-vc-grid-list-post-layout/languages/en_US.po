@@ -1,0 +1,518 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: en\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.8\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Read More"
+msgstr ""
+
+msgid "Link to post"
+msgstr ""
+
+msgid "No link"
+msgstr ""
+
+msgid "Link to bigger image"
+msgstr ""
+
+#: class/admin-grid-ui.php:9
+msgid "PW Grid"
+msgstr ""
+
+#: class/admin-grid-ui.php:10
+msgid "Grid Post Layout"
+msgstr ""
+
+msgid "PW Post Layout"
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Enter Title."
+msgstr ""
+
+msgid "Your Query"
+msgstr ""
+
+msgid "Create WordPress loop, to populate content from your site."
+msgstr ""
+
+msgid "Link Target"
+msgstr ""
+
+msgid "Same window"
+msgstr ""
+
+msgid "New window"
+msgstr ""
+
+msgid "Choose link target"
+msgstr ""
+
+msgid "Grid Type"
+msgstr ""
+
+msgid "Standard Grid (Fix row)"
+msgstr ""
+
+msgid "Advanced Grid (Mixitup)"
+msgstr ""
+
+msgid "Masonry Grid"
+msgstr ""
+
+msgid "Choose Grid Type"
+msgstr ""
+
+msgid "Add Filter"
+msgstr ""
+
+msgid ""
+"Choose Taxonomy Type for Use in Grid Filter. If there is no item, Please "
+"choose post type in Build Query."
+msgstr ""
+
+msgid "Desktop Columns Count"
+msgstr ""
+
+msgid "1 Column"
+msgstr ""
+
+msgid "2 Columns"
+msgstr ""
+
+msgid "3 Columns"
+msgstr ""
+
+msgid "4 Columns"
+msgstr ""
+
+msgid "Choose Desktop(PC Mode) Columns Count"
+msgstr ""
+
+msgid "Tablet Columns Count"
+msgstr ""
+
+msgid "Choose Tablet Columns Count"
+msgstr ""
+
+msgid "Mobile Columns Count"
+msgstr ""
+
+msgid "Choose Mobile Columns Count"
+msgstr ""
+
+msgid "Grid Skin"
+msgstr ""
+
+msgid "Skin One"
+msgstr ""
+
+msgid "Skin Two"
+msgstr ""
+
+msgid "Choose Grid Skin"
+msgstr ""
+
+msgid "Grid Effect"
+msgstr ""
+
+msgid "Effect One"
+msgstr ""
+
+msgid "Effect Two"
+msgstr ""
+
+msgid "Effect Three"
+msgstr ""
+
+msgid "Effect Four"
+msgstr ""
+
+msgid "Choose Grid Effect"
+msgstr ""
+
+msgid "Page Navigation"
+msgstr ""
+
+msgid "No Pagination"
+msgstr ""
+
+msgid "Show \"Show More\" Button"
+msgstr ""
+
+msgid "Infinite Scroll"
+msgstr ""
+
+msgid "Show Page Number"
+msgstr ""
+
+msgid "Choose Page Navigation Type"
+msgstr ""
+
+msgid "Page Number Style"
+msgstr ""
+
+msgid "Style 1"
+msgstr ""
+
+msgid "Style 2"
+msgstr ""
+
+msgid "Choose Page Number Style"
+msgstr ""
+
+msgid "Default Display Type"
+msgstr ""
+
+msgid "Grid (With Switch to List)"
+msgstr ""
+
+msgid "List (With Switch to Grid)"
+msgstr ""
+
+msgid "Choose Default Display Type"
+msgstr ""
+
+msgid "Show Filter"
+msgstr ""
+
+msgid "Enables Filter Bar."
+msgstr ""
+
+msgid "Yes, please"
+msgstr ""
+
+msgid "Show Order By"
+msgstr ""
+
+msgid "Enables order By."
+msgstr ""
+
+msgid "Hide Switch Mode Icon"
+msgstr ""
+
+msgid "Hide icon for switch Grid to List or List to Grid."
+msgstr ""
+
+msgid "Teaser layout"
+msgstr ""
+
+msgid ""
+"Control teasers look. Enable blocks and place them in desired order. Note: "
+"This setting can be overrriden on post to post basis."
+msgstr ""
+
+msgid "Thumbnail"
+msgstr ""
+
+msgid "Text"
+msgstr ""
+
+msgid "Teaser/Excerpt"
+msgstr ""
+
+msgid "Full content"
+msgstr ""
+
+msgid "Read more link"
+msgstr ""
+
+msgid "Excerpt/Content Length"
+msgstr ""
+
+msgid "Enter Excerpt/Content length"
+msgstr ""
+
+msgid "Thumbnail size"
+msgstr ""
+
+msgid ""
+"Enter thumbnail size. Example: thumbnail, medium, large, full or other sizes "
+"defined by current theme. Alternatively enter image size in pixels: 200x100 "
+"(Width x Height) . "
+msgstr ""
+
+msgid "Date Format"
+msgstr ""
+
+msgid ""
+"Enter Date Format.Show More Info <a href='http://codex.wordpress.org/"
+"Formatting_Date_and_Time' target='_new'>Here</a>"
+msgstr ""
+
+msgid "Image Effect"
+msgstr ""
+
+msgid "Zoom In"
+msgstr ""
+
+msgid "Zoom Out"
+msgstr ""
+
+msgid "Rotate Right"
+msgstr ""
+
+msgid "Choose image effect"
+msgstr ""
+
+msgid "Icon Effect"
+msgstr ""
+
+msgid "Dropdown"
+msgstr ""
+
+msgid "DropUp"
+msgstr ""
+
+msgid "Scale"
+msgstr ""
+
+msgid "Choose icon effect"
+msgstr ""
+
+msgid "Item Border Top Size"
+msgstr ""
+
+msgid "Enter Border Top Size for item"
+msgstr ""
+
+msgid "Item Border Top Type"
+msgstr ""
+
+msgid "Solid"
+msgstr ""
+
+msgid "Dashed"
+msgstr ""
+
+msgid "Dotted"
+msgstr ""
+
+msgid "Double"
+msgstr ""
+
+msgid "Choose Border Top Type for item"
+msgstr ""
+
+msgid "Item Border Top Color"
+msgstr ""
+
+msgid "Choose Border Top Color.Leave blank to ignore"
+msgstr ""
+
+msgid "Item Border Right Size"
+msgstr ""
+
+msgid "Enter Border Right Size for item"
+msgstr ""
+
+msgid "Item Border Right Type"
+msgstr ""
+
+msgid "Choose Border Right Type for item"
+msgstr ""
+
+msgid "Item Border Right Color"
+msgstr ""
+
+msgid "Choose Border Right Color.Leave blank to ignore"
+msgstr ""
+
+msgid "Item Border Bottom Size"
+msgstr ""
+
+msgid "Enter Border Bottom Size for item"
+msgstr ""
+
+msgid "Item Border Bottom Type"
+msgstr ""
+
+msgid "Choose Bottom Top Typ for item"
+msgstr ""
+
+msgid "Item Border Bottom Color"
+msgstr ""
+
+msgid "Choose Border Bottom Color.Leave blank to ignore"
+msgstr ""
+
+msgid "Item Border Left Size"
+msgstr ""
+
+msgid "Enter Border Left Size for item"
+msgstr ""
+
+msgid "Item Border Left Type"
+msgstr ""
+
+msgid "Choose Border Left Type for item"
+msgstr ""
+
+msgid "Border Left Color"
+msgstr ""
+
+msgid "Choose Border Left Color.Leave blank to ignore"
+msgstr ""
+
+msgid "Backgroud Color"
+msgstr ""
+
+msgid "Choose Background Color.Leave blank to ignore"
+msgstr ""
+
+msgid "Link Color"
+msgstr ""
+
+msgid "Choose Link Color.Leave blank to ignore"
+msgstr ""
+
+msgid "Link Hover Color"
+msgstr ""
+
+msgid "Choose Link Hover Color.Leave blank to ignore"
+msgstr ""
+
+msgid "Meta Color"
+msgstr ""
+
+msgid "Choose Meta Color.Leave blank to ignore"
+msgstr ""
+
+msgid "Excerpt Color"
+msgstr ""
+
+msgid "Choose Excerpt Color.Leave blank to ignore"
+msgstr ""
+
+msgid "Read More Type"
+msgstr ""
+
+msgid "Type 1"
+msgstr ""
+
+msgid "Type 2"
+msgstr ""
+
+msgid "Choose Read More Type"
+msgstr ""
+
+msgid "PW List"
+msgstr ""
+
+msgid "list Post Layout"
+msgstr ""
+
+msgid "List Type"
+msgstr ""
+
+msgid "Medium Image"
+msgstr ""
+
+msgid "Large Image"
+msgstr ""
+
+msgid "Choose List Type"
+msgstr ""
+
+msgid "For Enable Filter in Grid, Select Just One Post!"
+msgstr ""
+
+msgid "You muse checke just one post for add filter to Grid!"
+msgstr ""
+
+msgid "Grid View"
+msgstr ""
+
+msgid "List View"
+msgstr ""
+
+msgid "Albums"
+msgstr ""
+
+msgid "Music"
+msgstr ""
+
+msgid "SHOW MORE"
+msgstr ""
+
+msgid "Post Count"
+msgstr ""
+
+msgid "Order By"
+msgstr ""
+
+msgid "Order"
+msgstr ""
+
+msgid "Post types"
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "Categories"
+msgstr ""
+
+msgid "Tags"
+msgstr ""
+
+msgid "Taxonomies"
+msgstr ""
+
+msgid "Individual Posts/Pages"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Modified"
+msgstr ""
+
+msgid "Random"
+msgstr ""
+
+msgid "Comment count"
+msgstr ""
+
+msgid "Menu order"
+msgstr ""
+
+msgid "Ascending"
+msgstr ""
+
+msgid "Descending"
+msgstr ""
+
+msgid "The"
+msgstr ""
+
+msgid "PW Grid/List Post Layout for Visual Composer"
+msgstr ""
+
+msgid "plugin requires"
+msgstr ""
+
+msgid "Visual Composer"
+msgstr ""
+
+msgid "Plugin installed and activated"
+msgstr ""
+
+msgid "PW Box Post Layout for Visual Composer"
+msgstr ""
+
+msgid "version 4.6.0 or greater"
+msgstr ""
+
+msgid "Docs"
+msgstr ""

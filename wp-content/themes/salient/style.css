@@ -986,7 +986,7 @@ header#top .container .row {
 }
 
 header#top nav > ul {
-	float: right;
+	float: left;
 	overflow: visible!important;
 	transition: padding 0.8s ease, margin 0.25s ease;
 	min-height: 1px;
@@ -1014,6 +1014,14 @@ header#top nav > ul .slide-out-widget-area-toggle {
 	transition: margin 0.75s ease;
 }
 
+header#top .slide-out-widget-area-toggle {
+  position: relative;
+  top: 25px;
+  margin-right: 15px;
+}
+header#top .slide-out-widget-area-toggle a {
+  float: right;
+}
 #header-outer[data-transparency-option="1"][data-full-width="true"].side-widget-open {
 	box-shadow: none;
 }
